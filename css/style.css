@@ -1,0 +1,65 @@
+/* font-family: 'Fredoka One', cursive; */
+
+/* rgb(36, 36, 36);
+rgb(230, 46, 45);
+rgb(172, 188, 201); */
+
+body{
+    background-color: rgb(36, 36, 36);
+    font-family: 'Fredoka One', cursive;
+}
+main{
+    background-image: url("/img/backgroundCar.jpg");
+    height: 500px;
+    width: 1280px;
+}
+ #logo{
+   height: 80px;
+   width: 100px;
+   margin-left: 50px;
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: x-large;
+    color: red;
+    text-align: center;
+   position: relative;
+   top: 50px;
+}
+/* table tr {
+    border: 1px bold black;
+} */
+
+table {
+    border-collapse: collapse;
+  }
+
+  #myForm{
+      background-color: rgb(172, 188, 201);
+      color: red;
+      height: 200px;
+      width: 200px;
+
+  }
+  input[type=submit]{
+    background-color:  red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer; 
+  }
+
+  table{
+    background-color:  rgb(172, 188, 201);
+    float: right;
+    margin-right: 300px;
+  }
+
+  p{
+      color: red;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
